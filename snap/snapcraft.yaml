@@ -22,3 +22,6 @@ parts:
     source-type: git
     python-packages:
       - RPi.GPIO
+  app:
+    source: .
+    plugin: dump
