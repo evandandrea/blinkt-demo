@@ -9,7 +9,10 @@ confinement: devmode
 
 apps:
   python:
-      command: usr/bin/python3.5
+    command: usr/bin/python3.5
+  daemon:
+    command: daemon.py
+    daemon: simple
 
 parts:
   library:
