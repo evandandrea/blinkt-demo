@@ -14,4 +14,8 @@ apps:
 parts:
   library:
     plugin: python
-    source: library
+    source: https://github.com/pimoroni/blinkt
+    source-subdir: library
+    source-type: git
+    python-packages:
+      - RPi.GPIO
