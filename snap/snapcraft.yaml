@@ -1,0 +1,17 @@
+name: blinkt-demo
+version: git
+summary: Demos using Blinkt for the Raspberry Pi
+description: |
+  Demos using Blinkt for the Raspberry Pi
+
+grade: devel
+confinement: devmode
+
+apps:
+  python:
+      command: usr/bin/python3.5
+
+parts:
+  library:
+    plugin: python
+    source: library
